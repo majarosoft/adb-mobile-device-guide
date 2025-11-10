@@ -1,2 +1,11 @@
-# adb-mobile-device-guide
-Dokumentasi untuk run flutter tanpa kabel di Linux
+# adb-mobile-device-guide (Android 11+ & Linux)
+- Aktifkan & pergi ke Developer Options
+- Aktifkan USB Debugging
+- Scroll & aktifkan Wireless Debugging
+- Pastikan tersambung ke Wi-Fi yang sama
+- Pilih "Pair device with pairing code"
+- Jalankan "adb pair <ip>:<port>" di Terminal
+- Masukan kode
+- Jalankan "adb connect <ip>:<port_default>" di Terminal
+- adb devices
+- flutter devices
